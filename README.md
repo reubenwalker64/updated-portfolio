@@ -1,2 +1,2 @@
-# updated-portfolion
+# updated-portfolio
 Updated portfolio homework
