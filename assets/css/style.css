@@ -96,17 +96,6 @@ body {
 
 
 
-header {
-  color: #777;
-  background: #fff;
-}
-
-img {
-  float: left;
-  margin-right: 10px;
-}
-
-
 
 /* custom css ends */
 
@@ -293,6 +282,7 @@ label,
 input[type=text],
 input[type=email],
 textarea {
+  font-family: 'Cantarell', sans-serif;
   display: block;
   width: 100%;
 }
@@ -300,6 +290,7 @@ textarea {
 input[type=text],
 input[type=email],
 textarea {
+  font-family: 'Cantarell', sans-serif;
   height: 35px;
   padding: 0 10px;
   font-size: 14px;
@@ -311,6 +302,7 @@ textarea {
 }
 
 input[type=submit] {
+  font-family: 'Cantarell', sans-serif;
   padding: 10px 30px;
   font-size: 18px;
   color: #ffffff;
@@ -395,7 +387,7 @@ input[type=submit] {
   background-color: darkgrey !Important;
   width: 100%;
   height: 3.5rem;
- 
+  font-family: 'Cantarell', sans-serif;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
