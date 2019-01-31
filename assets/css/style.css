@@ -283,6 +283,7 @@ input[type=text],
 input[type=email],
 textarea {
   font-family: 'Cantarell', sans-serif;
+  font-size: 18px !important;
   display: block;
   width: 100%;
 }
@@ -293,7 +294,7 @@ textarea {
   font-family: 'Cantarell', sans-serif;
   height: 35px;
   padding: 0 10px;
-  font-size: 14px;
+  font-size: 18px;
   border: 1px solid #dddddd;
 }
 
@@ -303,7 +304,9 @@ textarea {
 
 input[type=submit] {
   font-family: 'Cantarell', sans-serif;
+  border-radius: 10px;
   padding: 10px 30px;
+  text-transform: uppercase;
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
@@ -311,25 +314,28 @@ input[type=submit] {
   border: 0 none;
 }
 
+input[type=submit]:hover {
+  background: red;
+}
+
 /*put parts to change with screen size below?*/
 
 @media screen and (max-width: 980px) {
 
   body {
-    background-color: rgb(209, 207, 207);
+    
   }
 
   #masthead {
-    margin-top: -8px;
+    
   }
-
 
   
 }
 @media screen and (max-width: 768px) {
 
   body {
-    background-color: rgb(209, 207, 207);
+    
   }
 
   img {
@@ -337,7 +343,7 @@ input[type=submit] {
   }
 
   #masthead {
-    margin-top: -8px;
+    
   }
 
   .wrapper {
@@ -351,7 +357,7 @@ input[type=submit] {
 @media screen and (max-width: 640px) {
 
   body {
-    background-color: rgb(209, 207, 207);
+    
   }
   img {
     float: none;
@@ -359,7 +365,7 @@ input[type=submit] {
   }
 
   #masthead {
-    margin-top: -33px;
+    
   }
 
   nav {
