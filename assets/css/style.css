@@ -166,14 +166,14 @@ h3 {
   overflow: auto;
   color: #ffffff;
   background: #fff;
-  border-bottom: 2px solid black;
+  border-top: 1px solid darkgrey;
 }
 
 nav {
   font-family: 'Cantarell', sans-serif;
   font-size: 18px;
   float: right;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-right: 30px;
 }
 
@@ -233,7 +233,7 @@ h3, h2 {
   padding: 30px;
   margin: 0 0 40px;
   background: #ffffff;
-  border: 1px solid #dddddd;
+  
 }
 
 /* portfolio page */
