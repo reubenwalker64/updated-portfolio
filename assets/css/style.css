@@ -43,8 +43,6 @@ body {
   margin-bottom: 20px;
 }
 
-
-
 .marketing-site-hero-content p {
   font-family: 'Cantarell', sans-serif;
   font-size: 18px;
@@ -384,7 +382,75 @@ input[type=submit]:hover {
     padding-left: 15px;
     padding-right: 15px;
   }
+    
+    .marketing-site-hero-content h1 {
+  font-size: 30px !Important;
+  color: darkgreen;
+  text-align: center !important;
+  font-family: 'Cinzel', serif;
+  border-bottom: 0px !important;
+  margin-bottom: 20px;
+    }
+    
+    .marketing-site-hero-content p {
+  font-family: 'Cantarell', sans-serif;
+  font-size: 16px;
+  text-align: center !important;
+  color: black;
+  width: auto;
+  margin: auto; 
+    }
 
+}
+
+@media screen and (max-width: 480px) {
+
+  body {
+    
+  }
+  img {
+    float: none;
+    width: 100%;
+  }
+
+  #masthead {
+    
+  }
+
+  nav {
+    float: none;
+    text-align: center;
+   
+  }
+
+  #logo {
+    width: 25%;
+  }
+
+  .wrapper {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+   .marketing-site-hero-content h1 {
+  font-size: 24px !Important;
+  color: darkgreen;
+  text-align: center !important;
+  font-family: 'Cinzel', serif;
+  border-bottom: 0px !important;
+  margin-bottom: 20px;
+    }
+    
+    .marketing-site-hero-content p {
+  font-family: 'Cantarell', sans-serif;
+  font-size: 16px;
+  text-align: center !important;
+  color: black;
+  width: auto;
+  margin: auto; 
+    }
 }
 
 /*Foundation responsive footer*/
