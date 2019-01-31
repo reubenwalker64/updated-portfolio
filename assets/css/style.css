@@ -373,7 +373,7 @@ input[type=submit]:hover {
   }
 
   #logo {
-    width: 100%;
+    width: 50%;
   }
 
   .wrapper {
@@ -382,6 +382,20 @@ input[type=submit]:hover {
     padding-left: 15px;
     padding-right: 15px;
   }
+    
+    .marketing-site-hero {
+  background: url("../images/Site-Header-Logo-Transparent-10-phone.png");
+  background-size: cover;
+  height: 60vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+  
+}
     
     .marketing-site-hero-content h1 {
   font-size: 30px !Important;
@@ -433,6 +447,20 @@ input[type=submit]:hover {
     padding-left: 5px;
     padding-right: 5px;
   }
+    
+    .marketing-site-hero {
+  background: url("../images/Site-Header-Logo-Transparent-10-phone.png");
+  background-size: cover;
+  height: 40vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+   margin-top: 30px;
+  
+}
 
    .marketing-site-hero-content h1 {
   font-size: 24px !Important;
