@@ -92,9 +92,6 @@ body {
   text-align: center;
 }
 
-
-
-
 /* custom css ends */
 
 * {
@@ -120,6 +117,13 @@ p:last-child {
   margin-bottom: 0;
 }
 
+.codeLink {
+  color:darkgreen;
+}
+
+.codeLink:hover {
+  color:red;
+}
 
 h1 {
   padding-bottom: 20px;
@@ -161,8 +165,9 @@ nav {
   font-size: 18px;
   text-transform: uppercase;
   float: right;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-right: 30px;
+  padding: 6px;
 }
 
 nav a {
@@ -172,19 +177,33 @@ nav a {
   line-height: 18px;
   color: #777;
   text-decoration: none;
-  border-left: 1px solid #efefef;
+  padding: 6px;
+  
 }
 
 nav a:first-child {
   border-left: 0 none;
 }
 
+.link-1 {
+    transition: 0.4s ease;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    padding: 20px 0;
+}
+
+.link-1:hover {
+    border-top: 3px solid darkgreen;
+    border-bottom: 3px solid darkgreen;
+    padding: 6px 0;
+}
+
 /*custom css begins*/
 
 a {
+    transition: 0.8s ease;
     color: darkgreen !important;
-    text-decoration-line: none;
-    
+    text-decoration-line: none; 
 }
 
 a:visited {
@@ -192,7 +211,7 @@ a:visited {
 }
 
 a:hover {
-    color: red !important;
+    color: red !important; 
 }
 
 a:active {
