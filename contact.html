@@ -88,6 +88,10 @@
         <li>
             <label for="email">Email</label>
             <input type="email" value="" name="EMAIL" class="required email" id="email" placeholder="Email" style=" float: left; background: none; padding: 1.75em 2em; margin: 0; border-radius: .25em; box-shadow: none; border: none;"></li>
+          
+        <li>
+            <label for="name">Message</label>
+            <input type="text" value="" name="FNAME" class="required name" id="message" placeholder="Message" style=" float: left; background: none; padding: 1.75em 2em; margin: 0; border-radius: .25em; box-shadow: none; border: none;"></li>
       </ul>
   </div>
   <div style="position: absolute; left: -5000px;" aria-hidden="true">
@@ -167,7 +171,8 @@ function contactScript(value) {
         $("#newContact").submit(function(a) { $(this), console.log("Submit to Firebase");
         var c = $("#name").val(),
             d = $("#email").val(),
-            f = { name: c, email: d};
+            e = $("#message").val(),
+            f = { name: c, email: d message: e};
         return b.push(f).then(function(a) { 
             $(".sucess").css("display", "block"), 
             $(".sucess-none").css("display", "none") }), !1 })   
