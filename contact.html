@@ -150,6 +150,19 @@
     
 <script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
     
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCj6oROILncEzNuUGaddtobixQKG1qIVOU",
+    authDomain: "form-db-mac.firebaseapp.com",
+    databaseURL: "https://form-db-mac.firebaseio.com",
+    projectId: "form-db-mac",
+    storageBucket: "form-db-mac.appspot.com",
+    messagingSenderId: "55712442460"
+  };
+  firebase.initializeApp(config);
+</script>
+    
 <script type="text/javascript">
 $(document).ready(function() {
     if ($('#newContact').length > 0 ) {
