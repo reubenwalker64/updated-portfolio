@@ -598,26 +598,27 @@ input[type=submit]:hover {
 .contact form button, .contact form input, .contact form textarea{
   width:100%;
   padding:1em;
-  border:1px solid #c9e6ff;
+  border:1px solid darkgreen;
 }
 
 .contact form button{
-  background:#c9e6ff;
+  background:darkgreen;
+  color: #fff;
   border:0;
   text-transform: uppercase;
 }
 
 .contact form button:hover,.contact form button:focus{
-  background:#92bde7;
+  background:red;
   color:#fff;
   outline:0;
-  transition: background-color 2s ease-out;
+  transition: background-color 1s ease-out;
 }
 
 .alert{
   text-align: center;
   padding:10px;
-  background:#79c879;
+  background:#darkgreen;
   color:#fff;
   margin-bottom:10px;
   display:none;
