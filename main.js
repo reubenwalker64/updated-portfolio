@@ -1,12 +1,13 @@
 // Initialize Firebase (ADD YOUR OWN DATA)
 var config = {
-   apiKey: "AIzaSyCj6oROILncEzNuUGaddtobixQKG1qIVOU",
+    apiKey: "AIzaSyCj6oROILncEzNuUGaddtobixQKG1qIVOU",
     authDomain: "form-db-mac.firebaseapp.com",
     databaseURL: "https://form-db-mac.firebaseio.com",
     projectId: "form-db-mac",
     storageBucket: "form-db-mac.appspot.com",
     messagingSenderId: "55712442460"
 };
+
 firebase.initializeApp(config);
 
 // Reference messages collection
