@@ -15,9 +15,10 @@ var messagesRef = firebase.database().ref('messages');
 
 // Listen for form submit
 document.getElementById('contactForm').addEventListener('submit', submitForm);
-
+console.log('hello')
 // Submit form
 function submitForm(e){
+  console.log('in the function')
   e.preventDefault();
 
   // Get values
@@ -47,9 +48,8 @@ function getInputVal(id){
 }
 
 // Save message to firebase
-function saveMessage(name, company, email, phone, message){
-  var newMessageRef = messagesRef.push();
-  newMessageRef.set({
+function saveMessage(name, company, email, message){
+  messagesRef.push().set({
     name: name,
     company:company,
     email:email,
